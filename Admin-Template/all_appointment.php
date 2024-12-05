@@ -318,11 +318,11 @@
                 <div class="logo-box">
                     <a href="index.php" class="logo logo-dark">
                         <span class="logo-sm">
-                            <img src="assets/images/licon.png" alt="" height="10">
+                            <img src="assets/images/icon.png" alt="" height="10">
                             <!-- <span class="logo-lg-text-light">Shreyu</span> -->
                         </span>
                         <span class="logo-lg">
-                            <img src="assets/images/logo_kustati.png" alt="" height="40">
+                            <img src="assets/images/logo_kustati.png" alt="" height="55">
                             <!-- <span class="logo-lg-text-light">S</span> -->
                         </span>
                     </a>
@@ -332,7 +332,7 @@
                             <img src="assets/images/icon.png" alt="" height="10">
                         </span>
                         <span class="logo-lg">
-                            <img src="assets/images/logo_kustati.png" alt="" height="40">
+                            <img src="assets/images/logo_kustati.png" alt="" height="55">
                         </span>
                     </a>
                 </div>
@@ -440,13 +440,12 @@
                         <!-- <li class="menu-title">Navigation</li> -->
 
                         <li>
-                            <a href="index.php" data-bs-toggle="collapse">
-                                <span class="badge bg-success float-end">02</span>
+                            <a href="index.php">
+                                <span class="badge bg-success float-end">1</span>
                                 <i data-feather="home"></i>
                                 <span> Dashboards </span>
                             </a>
                         </li>
-
                         <li>
                             <a href="#sidebarEmail" data-bs-toggle="collapse">
                                 <i data-feather="mail"></i>

@@ -257,14 +257,12 @@ function ($) {
                 colors: ['transparent']
             },
             series: [{
-                name: 'Net Profit',
-                data: [35, 44, 55, 57, 56, 61]
-            }, {
-                name: 'Revenue',
-                data: [52, 76, 85, 101, 98, 87]
-            }],
+                name: 'User Device',
+                data: [35, 44, 55]
+            },
+            ],
             xaxis: {
-                categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+                categories: ['Mobile', 'Desktop', 'Tablet'],
                 axisBorder: {
                     show: false
                 },
@@ -318,8 +316,8 @@ function ($) {
                     vertical: 3
                 }
             },
-            series: [44, 55, 41, 17],
-            labels: ['Clothes 44k', 'Smartphons 55k', 'Electronics 41k', 'Other 17k'],
+            series: [44, 55, 1],
+            labels: ['Painding 44', 'Aprovel 55', "Done 1"],
             responsive: [{
                 breakpoint: 480,
                 options: {

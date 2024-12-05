@@ -318,7 +318,7 @@
                             <!-- <span class="logo-lg-text-light">Shreyu</span> -->
                         </span>
                         <span class="logo-lg">
-                            <img src="assets/images/logo_kustati.png" alt="" height="40">
+                            <img src="assets/images/logo_kustati.png" alt="" height="55">
                             <!-- <span class="logo-lg-text-light">S</span> -->
                         </span>
                     </a>
@@ -436,13 +436,12 @@
                         <!-- <li class="menu-title">Navigation</li> -->
 
                         <li>
-                            <a href="index.php" data-bs-toggle="collapse">
-                                <span class="badge bg-success float-end">02</span>
+                            <a href="index.php">
+                                <span class="badge bg-success float-end">1</span>
                                 <i data-feather="home"></i>
                                 <span> Dashboards </span>
                             </a>
                         </li>
-
                         <li>
                             <a href="#sidebarEmail" data-bs-toggle="collapse">
                                 <i data-feather="mail"></i>
@@ -579,7 +578,7 @@
                                                     <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                         <i class='uil uil-file-alt me-1'></i>New Appointment</i>
                                                     </button>
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -731,85 +730,85 @@
                                     <h5 class="card-title header-title">User Device</h5>
                                     <div id="targets-chart" class="apex-charts mt-3" dir="ltr"></div>
                                 </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- row -->
-                     <div class="row">
-                        <div class="col-xl-12">
-                            <div class="card">
-                                <div class="card-body">
-                                    <a href="all_appointment.php" class="btn btn-primary btn-sm float-end">
-                                        <i class='uil uil-export me-1'></i> All Appointment
-                                    </a>
-                                    <h5 class="card-title mt-0 mb-0 header-title">Our Appointments  </h5>
-
-                                    <div class="table-responsive mt-4">
-                                        <table class="table table-hover table-nowrap mb-0">
-                                            <thead>
-                                                <tr>
-                                                    <th scope="col"># ID</th>
-                                                    <th scope="col">Nama</th>
-                                                    <th scope="col">Email</th>
-                                                    <th scope="col">Nomor Telepon</th>
-                                                    <th scope="col">Tanggal Kunjungan</th>
-                                                    <th scope="col">Department/Service</th>
-                                                    <th scope="col">Dokter</th>
-                                                    <th scope="col">Status</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>#98754</td>
-                                                    <td>Daniel</td>
-                                                    <td>daniel@gmail.com</td>
-                                                    <td>0812345678901</td>
-                                                    <td>03/12/2024</td>
-                                                    <td>ABC</td>
-                                                    <td>Ahmad</td>
-                                                    <td><span class="badge badge-soft-warning py-1">Pending</span></td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div> <!-- end table-responsive-->
-                                </div> <!-- end card-body-->
-                            </div> <!-- end card-->
-                        </div> <!-- end col-->
-                    </div>
-                    <!-- end row -->
-
-                </div> <!-- container -->
-
-            </div> <!-- content -->
-
-            <!-- Footer Start -->
-            <footer class="footer">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <script>
-                                document.write(new Date().getFullYear())
-                            </script> &copy; Poliklinik. All Rights Reserved. Crafted With <a href="#">AchmadDaniel</a>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="text-md-end footer-links d-none d-sm-block">
-                                <a href="javascript:void(0);">About Us</a>
-                                <a href="javascript:void(0);">Help</a>
-                                <a href="javascript:void(0);">Contact Us</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </footer>
-            <!-- end Footer -->
 
-        </div>
+                <!-- row -->
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <a href="all_appointment.php" class="btn btn-primary btn-sm float-end">
+                                    <i class='uil uil-export me-1'></i> All Appointment
+                                </a>
+                                <h5 class="card-title mt-0 mb-0 header-title">Our Appointments </h5>
 
-        <!-- ============================================================== -->
-        <!-- End Page content -->
-        <!-- ============================================================== -->
+                                <div class="table-responsive mt-4">
+                                    <table class="table table-hover table-nowrap mb-0">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col"># ID</th>
+                                                <th scope="col">Nama</th>
+                                                <th scope="col">Email</th>
+                                                <th scope="col">Nomor Telepon</th>
+                                                <th scope="col">Tanggal Kunjungan</th>
+                                                <th scope="col">Department/Service</th>
+                                                <th scope="col">Dokter</th>
+                                                <th scope="col">Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>#98754</td>
+                                                <td>Daniel</td>
+                                                <td>daniel@gmail.com</td>
+                                                <td>0812345678901</td>
+                                                <td>03/12/2024</td>
+                                                <td>ABC</td>
+                                                <td>Ahmad</td>
+                                                <td><span class="badge badge-soft-warning py-1">Pending</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div> <!-- end table-responsive-->
+                            </div> <!-- end card-body-->
+                        </div> <!-- end card-->
+                    </div> <!-- end col-->
+                </div>
+                <!-- end row -->
+
+            </div> <!-- container -->
+
+        </div> <!-- content -->
+
+        <!-- Footer Start -->
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <script>
+                            document.write(new Date().getFullYear())
+                        </script> &copy; Poliklinik. All Rights Reserved. Crafted With <a href="#">AchmadDaniel</a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="text-md-end footer-links d-none d-sm-block">
+                            <a href="javascript:void(0);">About Us</a>
+                            <a href="javascript:void(0);">Help</a>
+                            <a href="javascript:void(0);">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end Footer -->
+
+    </div>
+
+    <!-- ============================================================== -->
+    <!-- End Page content -->
+    <!-- ============================================================== -->
 
 
     </div>
